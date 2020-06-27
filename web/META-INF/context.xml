@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/nuovaAvventura">
+    <Resource name="jdbc/nuova_avventura" type="javax.sql.DataSource" auth="Container"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/nuova_avventura?autoReconnect=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8"
+              username="root" password="123456"
+              logAbandoned="true"
+              removeAbandoned="true" removeAbandonedTimeout="60"
+              maxActive="100" maxIdle="30" maxWait="10000" />
+</Context>

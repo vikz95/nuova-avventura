@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/NuovaAvventura"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Tomcat 9.0.8" scope="PROVIDED"/>
+	<lib name="javax.servlet.jsp.jstl-1.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar!/"/>
+	</lib>
+	<lib name="javax.servlet.jsp.jstl-api-1.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.1.38-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.38-bin.jar!/"/>
+	</lib>
+	<lib name="mail-1.4.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/mail-1.4.7.jar!/"/>
+	</lib>
+	<levels>
+		<level name="Tomcat 9.0.8" value="application_server_libraries"/>
+	</levels>
+</component>
